@@ -1,0 +1,10 @@
+{
+  "power": true,
+  "color": [255, 255, 255],
+  "brightness": 1.0,
+  "last_tab": "screen",
+  "speed": 2.25,
+  "screen_monitor": 1,
+  "screen_zone": "bottom",
+  "effect": "pantalla"
+}

@@ -1,0 +1,5 @@
+bleak>=3.0
+mss>=10.2
+numpy>=2.0
+pillow>=10.0
+pystray>=0.19

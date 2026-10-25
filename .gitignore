@@ -1,0 +1,24 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+led_control.log
+
+# Ajustes locales específicos del hardware del usuario
+# (para no exponer la MAC Bluetooth de tus luces)
+config.json
+
+# Accesos directos locales con rutas absolutas de Windows
+*.lnk
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
