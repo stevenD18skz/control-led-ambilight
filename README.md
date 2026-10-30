@@ -25,6 +25,7 @@ Control Led/
 │   ├── explore.py          # Inspección de servicios y características BLE
 │   ├── test_basic.py       # Prueba de comandos directos BLE
 │   └── update_shortcuts.py # Generador de accesos directos de Windows
+├── Instalar y ejecutar.bat # Prepara el entorno e instala las dependencias
 ├── config.json             # Ajustes guardados del usuario (brillo, estado, monitor, etc.)
 ├── Control LED.bat         # Lanzador sin consola para Windows
 ├── Control LED.lnk         # Acceso directo con icono personalizado
@@ -35,9 +36,9 @@ Control Led/
 
 ## 🚀 Cómo Iniciar la Aplicación
 
-1. **Doble clic en el acceso directo**: Haz doble clic en `Control LED.lnk` (en tu escritorio o en esta carpeta).
-2. **O ejecuta el lanzador**: Haz doble clic en `Control LED.bat`.
-3. **Desde la terminal**:
+1. **Primera ejecución**: Instala [Python 3.10 o superior](https://www.python.org/downloads/) si aún no está instalado. Luego haz doble clic en `Instalar y ejecutar.bat`. El archivo crea `.venv`, instala las dependencias de `requirements.txt` e inicia la aplicación. Se necesita conexión a Internet para instalar las dependencias.
+2. **Ejecuciones posteriores**: Haz doble clic en `Control LED.bat` o en `Control LED.lnk`.
+3. **Desde la terminal, después de instalar**:
    ```bash
    .venv\Scripts\python.exe src\main.py
    # o también:
